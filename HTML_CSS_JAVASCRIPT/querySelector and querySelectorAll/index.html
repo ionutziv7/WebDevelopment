@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuerySelector & QuerySelectorAll</title>
+  </head>
+  <body>
+    <p id="unique">
+      Tutorial <strong>querySelector</strong> and
+      <strong>querySelectorAll</strong>
+    </p>
+    <p class="paragraph">This is paragraph1</p>
+    <p class="paragraph">This is paragraph2</p>
+    <p class="paragraph">This is paragraph3</p>
+    <p class="paragraph">This is paragraph4</p>
+    <p class="paragraph">This is paragraph5</p>
+    <div>
+      <p class="parli">One</p>
+      <p class="parli">Two</p>
+      <p class="parli">Three</p>
+      <p class="parli">Four</p>
+      <p class="parli">Five</p>
+      <p style="font-size: 47px">
+        This was the tutorial with <strong>querySelector</strong> and
+        <strong>querySelectorAll</strong>
+      </p>
+    </div>
+    <script>
+      var par1 = document.querySelector("p#unique");
+      par1.style.color = "white";
+      par1.style.backgroundColor = "blue";
+      par1.style.fontSize = "50px";
+
+      var paragraphs = document.querySelectorAll("p.paragraph");
+
+      for (var i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].style.color = "lime";
+        paragraphs[i].style.backgroundColor = "black";
+        paragraphs[i].style.fontSize = "47px";
+      }
+
+      var element = document.querySelectorAll("div > p.parli");
+      for (var i = 0; i < element.length; i++) {
+        element[i].style.color = "orange";
+        element[i].style.backgroundColor = "black";
+        element[i].style.fontSize = "47px";
+      }
+    </script>
+  </body>
+</html>

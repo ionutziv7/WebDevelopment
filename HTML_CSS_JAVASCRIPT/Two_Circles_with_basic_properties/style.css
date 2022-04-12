@@ -27,21 +27,12 @@ body {
     text-align: right;
     background-color:rgb(218, 53, 138);
     margin: 20px 30px 20px 117px;
+    
 }
-.client {
-    width: 80px;
-    height: 3px;
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 10px 30px 25px 30px;
+#client {
     margin: 12px 12px 12px 180px;
-    background-color: rgb(76, 9, 138);
-    border-radius: 12px;
 }
-.server {
+.client-server {
     width: 80px;
     height: 3px;
     color: white;
@@ -50,11 +41,13 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 10px 30px 25px 30px;
-    margin: 10px 10px 10px 110px;
     background-color: rgb(76, 9, 138);
     border-radius: 12px;
+}
+#server {
+    margin: 10px 10px 10px 110px;
 }
 .box {
-    margin: 100px 10px 50px 10px;
+    margin-top: 200px;
     margin-left: 100px;
 }

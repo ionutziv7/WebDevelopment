@@ -5,7 +5,7 @@
 }
 body {
     padding: 20px;
-    background: rgb(186, 18, 18);
+    background:linear-gradient(45deg, red, orange, tomato);
 }
 .parent-div {
     width: 960px;
@@ -53,9 +53,14 @@ a {
     background-color: rgb(22, 64, 200);
     margin-top: 50px;
     margin-left: 50px;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
     justify-content: center;
     position: absolute;
- }
+}
+.next {
+    float: right;
+    position: inherit;
+    margin-right: 50px;
+}

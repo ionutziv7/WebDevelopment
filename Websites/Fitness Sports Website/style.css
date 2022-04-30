@@ -159,3 +159,41 @@ nav .fa-bars{
     margin-bottom: -30px;
     margin-top: -30px;
 }
+
+/*----- Subscribe -----*/
+.subcribe {
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.subcribe h3, .subcribe p {
+    color: #fff;
+}
+.subcribe .input-group {
+   border-radius: 30px;
+   background: #fff;
+   max-width: 500px;
+   margin: 10px auto;
+   padding: 5px;
+}
+.subcribe .form-control {
+    border: none;
+    background: transparent;
+}
+.subcribe .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+}
+.subcribe .input-group-append {
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+.subcribe .input-group-text {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.subcribe .btn:focus {
+    box-shadow: none;
+}
